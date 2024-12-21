@@ -1,69 +1,49 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#f8f2f2;
-    
-    
+.scrolling-text {
+    background-color: #0f5433;
+    color: white; 
+    font-size: 1.4rem;
+    font-family: Georgia, serif;
 
+ }
+
+.navbar {
+    background-color: #d0f5e3;
 }
-header,footer{
-    background-color: #f8f2f2;
+.navbar-brand img {
+    height: 40px;
+}
+.nav-link {
+    color: #0f5433 ;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.nav-link:hover {
     color: #9f5e12;
-    width: 100%;
-    border: 1px solid #0f5433;
-    border-radius: 4px;
-    
-     
+}
+.btn-get-in-touch {
+    background-color: #0f5433;
+    color: #fff;
+    border: none;
+}
+.btn-get-in-touch:hover {
+    background-color: #9f5e12;
+    color: #fff;
+}
+.dropdown-menu{
+    background-color: #d0f5e3;
+    color: #0f5433;
+    font-weight: bold;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    font-size: 22px;
-    padding:30px 0;
-    
+
+.dropdown-item:hover{
+    background-color: #9f5e12;
+    color: white;
+    transition: 0.2s;
 }
 
-header h2{
-    font-size: 20px;
 
-}
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-nav li{
-    list-style: none;
-    display: inline-block;
-}
-
-nav ul li a{
-    text-decoration: none;
+.dropdown .nav-link:hover{
     color: #9f5e12;
-    font-size: 18px;
-    padding: 0 15px;
-    text-transform: capitalize;
     
 }
-button{
-    background-color:#f8f2f2 ;
-    color: #9f5e12;
-    border-radius: 5px;
-    border: 1px solid #0f5433;
-    }
-    nav ul li a:hover{
-        color: black;
-        text-decoration: underline;
-        
-    }
-    button:hover{
-        color: black;
-    }
-
-
-
